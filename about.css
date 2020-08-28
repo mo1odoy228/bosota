@@ -1,0 +1,61 @@
+body {
+	background-image: url(vn.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 49px;
+	background-color: #5F9EA0;
+}
+
+.men {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -2.75%;
+}
+
+.mn {
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	transition: 0.5s;
+	padding: 0 20px;
+}
+
+.m {
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+
+.men:hover .mn .m:hover {
+	font-size: 25px;
+	background-color: #40E0D0;
+	color: #2F4F4F;
+	padding: 10px;
+}
+
+aside {
+	float: right;
+	margin-right: 20px;
+	color: white;
+}
+
+article {
+	display: block;
+	margin-left: 20px;
+	color: white;
+}
+
+p {
+	font-size: 20px;
+}
